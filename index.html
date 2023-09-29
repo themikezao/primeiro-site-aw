@@ -6,15 +6,82 @@
         <title>o meu primeiro site</title>
     </head>
     <body>
-        <h1>Biografia do Miguel Sousa</h1>
+         <!-- Uma linha de cor para dar efeito visual diferente ao viewer do site -->
+        <div style="width:100%; height:20px; background-color:tomato"></div>
+        <!-- Título do Site -->
+        <h1>Biografia do Miguel Sousa</h1> 
+        <!-- Isto é um parágrafo sobre Miguel -->
         <p>Olá, sou o Miguel Ângelo Ferreira de Sousa tenho 19 anos e sou de Penafiel. No meu tempo livre, costumo sair com amigos e família, fazer e ouvir música, ver netflix, entre diversas outras coisas que um jovem adulto costuma fazer.  <br> No secundário estudei ciências e tecnologias, coisa que parece difícil, mas considero que seja uma boa forma de conectarmo-nos com o mundo das ciências e das tecnologias. Posteriormente, concorri na universidade para o curso de Engenharia Informática e em concílio com este curso despertei o interesse na música, onde comecei por criar instrumentais com algumas samples<b>"Free for Profit"</b>, mais tarde perante estes instrumentrais comecei a criar letras para estes mesmos e vi que gostava deste mundo, comecei a pesquisar sobre cursos ligados ao mundo das artes e apareceu-me o curso Comunicação Audiovisual e Multimédia o que achei bastante interessante e pensei " Será que o curso onde estou é o ideal para mim? " vi que esta questão atormentava-me e depois por diversas razões vi que Engenharia Informática não era o meu futuro.  <br> Com isto dizer, após uma tentativa falhada despertei o interesse no mundo da arte o que me levou a escolher este curso.</p>
-        <img src="octo-octa-studio-set-up-guide-vinyl.jpg">
+        <!-- Uma imagem a indicar o local de trabalho do nosso artista -->
+        <img src="octo-octa-studio-set-up-guide-vinyl.jpg"
+             alt="Nesta imagem está representado um setup de um produtor ou artista musical."
+             width="800px"
+             height="500px">
+             <!-- Uma breve lista com lançamentos de Miguel -->
         <h2>Alguns temas músicais do nosso recente artista:</h2>
         <ol>
             <li><a href="https://youtu.be/4NFJPdFTtYo?si=x-ahrkvAwVGrkXlG">Mikezão - Love Divide (prod. wetgropes)</a> </li>
             <li><a href="https://youtu.be/uinXKIj0s7c?si=2Zyr-BpCma6AsANW">Mikezão - Feelin' (Prod. Lyko)</a> </li>
             <li> <a href="https://www.youtube.com/watch?v=XAzbJfMdZ3Y">Mikezão - Não Quero Mais (Prod. JPBEATZ) </a></li>
-          </ol>
+        </ol>
+        <!-- Uma pequena tabela com dados dos ouvintes retirados do Spotify de Miguel em setembro de 2023 -->
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 30px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f7771c;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Alguns dados sobre o público em setembro de 2023 de Miguel no Spotify 🎶</h1>
+    <table>
+      <tr>
+        <th>Público</th>
+        <th>Tipo de público</th>
+      </tr>
+      <tr>
+        <td>Ativo</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <td>Que já foi ativo</td>
+        <td>11%</td>
+      </tr>
+      <tr>
+        <td>Programado</td>
+        <td>89%</td>
+      </tr>
+    </table>
+    <!-- Uma brincadeira com o viewer do site para ouvir as minhas músicas no YouTube -->
+    <h2>Clica no botão eu quero tu queres porque não?</h2>
+    <label>Botão:</label>
+    <input type="button" value="Botão" onclick="redirecionarParaOutroSite()"/>
+    <script>
+        function redirecionarParaOutroSite() {
+            window.location.href = 'https://www.youtube.com/channel/UCk3kZmLltbFFBbqkZhzTmjw';
+        }
+    </script>
+     <!-- Um tema musical de Miguel para entreter na navegação do site -->
+    <h3>Espera tu pensavas que terminava aqui? Ainda estámos no início aproveita este vídeo para descansar 🎙️</h3>
+
+<video src="Mikezão - Love Divide (prod wetgropes).mp4" controls></video>
+<video controls width="250">
+    <source src="Mikezão - Love Divide (prod wetgropes).mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+        
 
     </body>
 </html>
