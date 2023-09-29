@@ -4,6 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>o meu primeiro site</title>
+        <style>
+            /* Estilos CSS para centralizar o vídeo */
+            .video-container {
+                display: flex;
+                justify-content: center; /* Centraliza horizontalmente */
+                align-items: center; /* Centraliza verticalmente */
+                height: 100vh; /* Define a altura da área de visualização para ocupar toda a tela */
+            }
+        </style>
     </head>
     <body>
          <!-- Uma linha de cor para dar efeito visual diferente ao viewer do site -->
@@ -18,7 +27,7 @@
              width="800px"
              height="500px">
              <!-- Uma breve lista com lançamentos de Miguel -->
-        <h2>Alguns temas músicais do nosso recente artista:</h2>
+        <h3>Alguns temas músicais do nosso recente artista:</h3>
         <ol>
             <li><a href="https://youtu.be/4NFJPdFTtYo?si=x-ahrkvAwVGrkXlG">Mikezão - Love Divide (prod. wetgropes)</a> </li>
             <li><a href="https://youtu.be/uinXKIj0s7c?si=2Zyr-BpCma6AsANW">Mikezão - Feelin' (Prod. Lyko)</a> </li>
@@ -43,7 +52,7 @@
     </style>
   </head>
   <body>
-    <h1>Alguns dados sobre o público em setembro de 2023 de Miguel no Spotify 🎶</h1>
+    <h2>Alguns dados sobre o público em setembro de 2023 de Miguel no Spotify 🎶</h2>
     <table>
       <tr>
         <th>Público</th>
@@ -63,7 +72,7 @@
       </tr>
     </table>
     <!-- Uma brincadeira com o viewer do site para ouvir as minhas músicas no YouTube -->
-    <h2>Clica no botão eu quero tu queres porque não?</h2>
+    <h3>Clica no botão eu quero tu queres porque não?</h3>
     <label>Botão:</label>
     <input type="button" value="Botão" onclick="redirecionarParaOutroSite()"/>
     <script>
@@ -72,16 +81,15 @@
         }
     </script>
      <!-- Um tema musical de Miguel para entreter na navegação do site -->
-    <h3>Espera tu pensavas que terminava aqui? Ainda estámos no início aproveita este vídeo para descansar 🎙️</h3>
-
-<video src="Mikezão - Love Divide (prod wetgropes).mp4" controls></video>
-<video controls width="0">
+    <h2>Espera tu pensavas que terminava aqui? Ainda estámos no início aproveita este vídeo para descansar 🎙️</h2>
+    <div class="video-container">
+    <video width="1334" height="750" controls>
     <source src="Mikezão - Love Divide (prod wetgropes).mp4"
             type="video/mp4">
 
     Sorry, your browser doesn't support embedded videos.
-</video>
-        
+    </video>
+</div>      
 
     </body>
 </html>
